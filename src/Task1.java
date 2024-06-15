@@ -20,6 +20,7 @@ public class Task1 {
 
         while(playagain) {
             int randomnumber = rand.nextInt(1, 100);
+            System.out.println(randomnumber);
             System.out.println("Enter number between 1 to 100 ");
             for (int round = 1; round <= 5; round++) {
 
